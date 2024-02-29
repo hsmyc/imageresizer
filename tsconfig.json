@@ -7,8 +7,11 @@
     "target": "es6",
     "allowJs": true,
     "checkJs": true,
-    "strict": true
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
   },
   "include": ["src/**/*.ts"],
-  "exclude": ["lib"]
+  "exclude": ["node_modules", "dist", "lib", "**/*.spec.ts", "build"]
 }
